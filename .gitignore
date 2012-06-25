@@ -1,3 +1,4 @@
 .ghci
 dist
 site_key.txt
+snaplets/postgresql-simple/devel.cfg
