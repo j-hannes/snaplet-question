@@ -1,0 +1,44 @@
+[25/Jun/2012:09:22:53 +0100] Server.httpServe: START, binding to [http://0.0.0.0:8081/]
+[25/Jun/2012:09:23:05 +0100] During processing of request from 127.0.0.1:50099
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:50099\n    local: 127.0.0.1:8081\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5\n Cookie: sess=Tz0E0ghPBwvb94xdUGHj+P6iBLb+nMxyBTx5c13q1ucGwzCArUlA2RD/qyta4B3ulSv3j2X+a/UNAOjxIccFHqYiny04UTy6hPXL1cpKJOVQqEoqKPcemD2m/8I0cfL6cBMhVTP6lGmnjPyLKHx6LywPDRGM\n Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3\n Cache-Control: max-age=0\n Connection: keep-alive\n Host: localhost:8081\n Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\n Accept-Language: en-GB,en-US;q=0.8,en;q=0.6\n Accept-Encoding: gzip,deflate,sdch\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"sess\", cookieValue = \"Tz0E0ghPBwvb94xdUGHj+P6iBLb+nMxyBTx5c13q1ucGwzCArUlA2RD/qyta4B3ulSv3j2X+a/UNAOjxIccFHqYiny04UTy6hPXL1cpKJOVQqEoqKPcemD2m/8I0cfL6cBMhVTP6lGmnjPyLKHx6LywPDRGM\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: \n    contextpath: /\n    URI: /\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+
+Initializer threw an exception...
+SqlError {sqlState = "", sqlNativeError = -1, sqlErrorMsg = "fe_sendauth: no password supplied\n"}
+
+...but before it died it generated the following output:
+Initializing app @ /
+Initializing heist @ /
+...loaded 5 templates from /home/hannes/projects/snaplet-question/snaplets/heist/templates
+Initializing CookieSession @ /sess
+Initializing postgresql-simple @ /db
+...setting up filesystem
+Initializing postgresql-auth @ /auth
+...setting up filesystem
+
+
+[25/Jun/2012:09:23:06 +0100] During processing of request from 127.0.0.1:50099
+request:
+"Request <\n    server-name: localhost\n    remote: 127.0.0.1:50099\n    local: 127.0.0.1:8081\n    Headers:\n      ========================================\n          User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/536.5 (KHTML, like Gecko) Chrome/19.0.1084.56 Safari/536.5\n Cookie: sess=Tz0E0ghPBwvb94xdUGHj+P6iBLb+nMxyBTx5c13q1ucGwzCArUlA2RD/qyta4B3ulSv3j2X+a/UNAOjxIccFHqYiny04UTy6hPXL1cpKJOVQqEoqKPcemD2m/8I0cfL6cBMhVTP6lGmnjPyLKHx6LywPDRGM\n Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3\n Connection: keep-alive\n Host: localhost:8081\n Accept: */*\n Accept-Language: en-GB,en-US;q=0.8,en;q=0.6\n Accept-Encoding: gzip,deflate,sdch\n      ========================================\n    content-length: Nothing\n    method: GET\n    version: (1,1)\n    cookies:\n      ========================================\n      Cookie {cookieName = \"sess\", cookieValue = \"Tz0E0ghPBwvb94xdUGHj+P6iBLb+nMxyBTx5c13q1ucGwzCArUlA2RD/qyta4B3ulSv3j2X+a/UNAOjxIccFHqYiny04UTy6hPXL1cpKJOVQqEoqKPcemD2m/8I0cfL6cBMhVTP6lGmnjPyLKHx6LywPDRGM\", cookieExpires = Nothing, cookieDomain = Nothing, cookiePath = Nothing, cookieSecure = False, cookieHttpOnly = False}\n      ========================================\n    pathinfo: favicon.ico\n    contextpath: /\n    URI: /favicon.ico\n    params:\n      ========================================\n      \n      ========================================\n>"
+A web handler threw an exception. Details:
+
+Initializer threw an exception...
+SqlError {sqlState = "", sqlNativeError = -1, sqlErrorMsg = "fe_sendauth: no password supplied\n"}
+
+...but before it died it generated the following output:
+Initializing app @ /
+Initializing heist @ /
+...loaded 5 templates from /home/hannes/projects/snaplet-question/snaplets/heist/templates
+Initializing CookieSession @ /sess
+Initializing postgresql-simple @ /db
+...setting up filesystem
+Initializing postgresql-auth @ /auth
+...setting up filesystem
+
+
+[25/Jun/2012:09:23:08 +0100] Server.httpServe: SHUTDOWN
+[25/Jun/2012:09:23:08 +0100] Server.httpServe: BACKEND STOPPED
+[25/Jun/2012:09:23:59 +0100] Server.httpServe: START, binding to [http://0.0.0.0:8081/]
+[25/Jun/2012:09:24:12 +0100] Server.httpServe: SHUTDOWN
+[25/Jun/2012:09:24:12 +0100] Server.httpServe: BACKEND STOPPED
